@@ -20,6 +20,10 @@ current_config_path=""
 
 slack_hook=""
 
+service_host_name=""
+service_port=""
+service_health_check_uri=""
+
 create_consul_session()
 {
 	echo "Creating session."
